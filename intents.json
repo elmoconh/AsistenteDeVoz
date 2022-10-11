@@ -1,0 +1,34 @@
+{ "intents": 
+    [
+        {   "tag": "saludo",
+            "patterns": ["Hola"],
+            "responses": ["Bienvenido usuario"]
+        }, 
+        {
+            "tag": "crea_nota",
+            "patterns": ["Nueva nota", "Crear nota", "Crear nueva nota"],
+            "responses": [""]
+
+        },
+        {
+            "tag": "agregar_tarea",
+            "patterns": ["agregate todo", "agregar una nueva tarea", "agregar una nueva tarea"],
+            "responses": [""]
+
+        },
+        {
+            "tag": "muestra_todo",
+            "patterns": ["muestra todos"],
+            "responses": [""]
+
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["Bye", "nos vemos"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+
+        }
+    ]
+}
+
+

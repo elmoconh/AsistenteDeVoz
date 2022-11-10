@@ -1,4 +1,3 @@
-import pyaudio
 import nltk
 nltk.download('omw-1.4')
 from neuralintents import GenericAssistant
@@ -20,9 +19,6 @@ def open_postman():
     user = os.getlogin()
     subprocess.Popen('C:\\Users\\'+user+'\\AppData\\Local\\Postman\\Postman.exe')
 
-def hello():
-    speaker.say('Hola, bienvenido a tu asistente personal')
-    speaker.runAndWait()
 
 def bye():
     speaker.say('Adiós te veo luego')

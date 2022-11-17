@@ -1,6 +1,6 @@
 # Prueba Asistente de voz
 
-Asistente de voz ceado con: 
+Asistente de voz creado con: 
 - Python: 3.9.12
 ### Pre-Requisitos de intalación
 - CUDA = V11.8.89
